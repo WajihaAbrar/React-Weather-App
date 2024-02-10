@@ -4,6 +4,7 @@ function App() {
   return (
     <div className="App">
       <h1>Weather App</h1>
+      <button className="btn btn-primary">Search</button>
       <footer>
         The project was coded by Wajiha Abrar and is open-sourced on{" "}
         <a
