@@ -11,10 +11,11 @@ function Weather() {
               type="search"
               placeholder="Enter a city..."
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
-            <button class="btn btn-primary">Search</button>
+            <button className="btn btn-primary w-100">Search</button>
           </div>
         </div>
       </form>
@@ -23,13 +24,19 @@ function Weather() {
         <li>Saturday 20:00</li>
         <li>Clear</li>
       </ul>
-      <div className="row">
+      <div className="row mt-3">
         <div className="col-6">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-            alt="Clear"
-          />{" "}
-          23℃
+          <div className="clearfix">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+              alt="Clear"
+              className="float-start"
+            />
+            <div className="float-start">
+              <span className="temperature">26</span>
+              <span className="unit">℃</span>
+            </div>
+          </div>
         </div>
         <div className="col-6">
           <ul>
