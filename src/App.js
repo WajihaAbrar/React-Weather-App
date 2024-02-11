@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather city="London" />
         <footer>
           The project was coded by Wajiha Abrar and is open-sourced on{" "}
           <a
