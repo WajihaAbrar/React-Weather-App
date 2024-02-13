@@ -49,7 +49,7 @@ function Weather(props) {
               />
             </div>
             <div className="col-3">
-              <button className="btn btn-primary w-100">Search</button>
+              <button className="btn btn-info w-100">Search</button>
             </div>
           </div>
         </form>
