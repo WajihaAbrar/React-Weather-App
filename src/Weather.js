@@ -12,6 +12,7 @@ function Weather(props) {
     console.log(response.data);
     setWeatherData({
       apicall: true,
+      coordinates: response.data.coord,
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
       city: response.data.name,
@@ -55,7 +56,7 @@ function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
-        <WeatherForecast />
+        <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );
   } else {
