@@ -8,8 +8,14 @@ function App() {
         <Weather city="New York" />
         <footer>
           The project was coded by{" "}
-          <a href="https://github.com/WajihaAbrar">Wajiha Abrar</a> and is
-          open-sourced on{" "}
+          <a
+            href="https://github.com/WajihaAbrar"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Wajiha Abrar
+          </a>{" "}
+          and is open-sourced on{" "}
           <a
             href="https://github.com/WajihaAbrar/React-Weather-App"
             target="_blank"
