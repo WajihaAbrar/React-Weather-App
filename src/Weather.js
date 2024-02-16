@@ -61,7 +61,7 @@ function Weather(props) {
     );
   } else {
     search();
-    return "Loading....";
+    return "Loading Weather Forecast....";
   }
 }
 

@@ -6,8 +6,8 @@
 }
 
 .Weather h1 {
-  font-size: 24px;
-  font-weight: 100;
+  font-size: 28px;
+  font-weight: 700;
   margin: 20px 0 0 0;
   line-height: 29px;
 }
@@ -20,7 +20,7 @@
 .Weather li {
   list-style: none;
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 19px;
 }
 .Weather canvas {
@@ -43,4 +43,10 @@
   position: relative;
   top: -34px;
   line-height: 1;
+}
+
+@media (max-width: 600px) {
+  .Weather {
+    padding: 12px;
+  }
 }

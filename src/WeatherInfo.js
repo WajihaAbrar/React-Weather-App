@@ -17,7 +17,7 @@ function WeatherInfo(props) {
         <div className="col-6">
           <div className="clearfix">
             <div className="float-start">
-              <WeatherIcon code={props.data.icon} size={52} />
+              <WeatherIcon code={props.data.icon} size={52} color="#31D2F2" />
             </div>
             <div className="float-start">
               <WeatherTemperature celsius={props.data.temperature} />

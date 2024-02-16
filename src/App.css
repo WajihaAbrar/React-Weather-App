@@ -1,6 +1,6 @@
 .App {
   max-width: 650px;
-  height: 600px;
+  height: 450px;
   border-radius: 5px;
   margin: 30px auto;
   background-color: #106885;
@@ -16,4 +16,11 @@
   font-size: 12px;
   margin: 10px 0;
   text-align: center;
+}
+
+@media (max-width: 600px) {
+  .App {
+    max-width: 500px;
+    height: 600px;
+  }
 }
