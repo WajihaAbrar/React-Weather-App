@@ -20,7 +20,8 @@ function WeatherForecast(props) {
   function load() {
     let latitude = props.coordinates.lat;
     let longitude = props.coordinates.lon;
-    let apiKey = "58a6775f97527351bf6c6966e209be39";
+    //let apiKey = "58a6775f97527351bf6c6966e209be39";
+    let apiKey = "ca5af28648d86b7925348bb9fb85cd3a";
     let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
 
     axios.get(apiUrl).then(handleResponse);
